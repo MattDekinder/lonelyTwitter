@@ -35,5 +35,7 @@ public abstract class lonelyTweetModel{
 		this.timestamp = new Date();
 	}
 	
+	public abstract boolean isNormal();
+	
 	
 }

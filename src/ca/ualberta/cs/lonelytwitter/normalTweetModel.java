@@ -20,4 +20,9 @@ public class normalTweetModel extends lonelyTweetModel{
 		// TODO Auto-generated method stub
 	}
 
+	@Override
+	public boolean isNormal(){
+		return true;
+	}
+
 }

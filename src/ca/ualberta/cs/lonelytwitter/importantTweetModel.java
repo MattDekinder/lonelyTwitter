@@ -20,4 +20,9 @@ public class importantTweetModel extends lonelyTweetModel
 		this.text = text;
 	}
 
+	@Override
+	public boolean isNormal(){
+		return false;
+	}
+
 }
