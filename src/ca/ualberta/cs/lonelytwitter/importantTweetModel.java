@@ -25,4 +25,12 @@ public class importantTweetModel extends lonelyTweetModel
 		return false;
 	}
 
+	@Override
+	public void setImportant(boolean important) throws Exception
+	{
+
+		// TODO Auto-generated method stub
+		
+	}
+
 }

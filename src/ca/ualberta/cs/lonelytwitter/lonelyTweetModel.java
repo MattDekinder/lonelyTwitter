@@ -37,5 +37,6 @@ public abstract class lonelyTweetModel{
 	
 	public abstract boolean isNormal();
 	
+	public abstract void setImportant(boolean important) throws Exception;
 	
 }

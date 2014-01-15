@@ -24,5 +24,13 @@ public class normalTweetModel extends lonelyTweetModel{
 	public boolean isNormal(){
 		return true;
 	}
+	//this is extra (someone else's solution but demos exceptions so here it is:
+	@Override
+	public void setImportant(boolean important) throws Exception {
+		if (important){
+			throw new Exception();
+		}
+		this.important = important;
+	}
 
 }
