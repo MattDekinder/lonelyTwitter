@@ -5,6 +5,8 @@ import java.util.Date;
 
 public class normalTweetModel extends lonelyTweetModel{
 
+	private boolean important;
+	
 	public normalTweetModel(String text, Date timestamp){
 		super(text, timestamp);
 		// TODO Auto-generated constructor stub
