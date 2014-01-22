@@ -77,14 +77,14 @@ public class LonelyTwitterActivity extends Activity {
 
 	private ArrayList<String> loadFromFile() {
 		ArrayList<String> tweets = new ArrayList<String>();
-		NormalTweetModel ntm = new NormalTweetModel();
+		//NormalTweetModel ntm = new NormalTweetModel();
 
 		try {
 			FileInputStream fis = openFileInput(FILENAME);
 			BufferedReader in = new BufferedReader(new InputStreamReader(fis));
 			String line = in.readLine();
 			while (line != null) {
-				gson.fromJson(line, NormalTweetModdel.getclas());
+	//			gson.fromJson(line, NormalTweetModdel);
 				tweets.add(line);
 				line = in.readLine();
 			}
